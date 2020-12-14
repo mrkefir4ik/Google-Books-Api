@@ -1,0 +1,16 @@
+.app {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+  background-color: grey;
+  font-size: large;
+}
+
+.results{
+  background-color: red;
+}
