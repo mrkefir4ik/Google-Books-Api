@@ -33,3 +33,16 @@ h1{
   display: flex;
   align-items: center;
 }
+
+.search{
+  width: 13rem;
+  height: 2rem;
+}
+.search::placeholder{
+  font-family: Ringbearer;
+}
+
+button{
+  height: 2rem;
+  font-family: Ringbearer;
+}
