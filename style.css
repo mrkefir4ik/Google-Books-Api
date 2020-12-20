@@ -1,14 +1,16 @@
 .app {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  max-width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: blue;
 }
 body{
-  background-color: grey;
+  background-color: lightyellow;
   font-size: large;
+  background-image: url(images/172373.jpg);
 }
 
 .results{
