@@ -4,6 +4,12 @@ const app = document.querySelector('.app');
 
 function searcher () {
 
+
+ let results = document.querySelectorAll('.result');
+ results.forEach(e =>{
+  e.parentNode.removeChild(e);
+ })
+
   var settings = {
     "async": true,
     "crossDomain": true,
@@ -25,14 +31,14 @@ function searcher () {
       let div = document.createElement('div');
       div.className = "result";
       div.innerHTML = `
-      <strong>Name:</strong>${e.name} <br>
-      <strong>Race:</strong>${e.race} <br><strong>Birth:</strong>${e.birth} <br>
-      <strong>Death:</strong>${e.death} <br> 
-      <strong>Gender:</strong>${e.gender} <br>
-      <strong>Hair:</strong>${e.hair} <br>
-      <strong>Height:</strong>${e.height} <br>
-      <strong>Realm:</strong>${e.realm} <br>
-      <strong>Spouse:</strong>${e.spouse} <br>
+      <strong>Name:</strong>${e.name} <br><br>
+      <strong>Race:</strong>${e.race} <br><br><strong>Birth:</strong>${e.birth} <br><br>
+      <strong>Death:</strong>${e.death} <br> <br>
+      <strong>Gender:</strong>${e.gender} <br><br>
+      <strong>Hair:</strong>${e.hair} <br><br>
+      <strong>Height:</strong>${e.height} <br><br>
+      <strong>Realm:</strong>${e.realm} <br><br>
+      <strong>Spouse:</strong>${e.spouse} <br><br>
       <strong>Learn more about ${e.name} <a href="${e.wikiUrl}">here</a></strong>`;
       app.append(div);
     })
