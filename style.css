@@ -40,9 +40,8 @@ h1{
 }
 
 .search{
-  width: 14.8rem;
-  height: 1.7rem;
-  border-radius: 10%;
+  width: 14.2rem;
+  height: 2rem;
   background-color: wheat;
   color: rgba(43, 10, 10, 0.8);
   font-family: Ringbearer;
@@ -54,12 +53,16 @@ h1{
 }
 
 button{
-  height: 2rem;
+  height: 3.5rem;
+  width: 3.5rem;
   font-family: Ringbearer;
   border-radius: 50%;
+  font-size: 0.6rem;
   cursor: pointer;
-  background-color: wheat;
+  background-color: black;
   font-weight: 800;
+  border:5px solid darkorange;
+  color:white;
 }
 
 button:hover{
