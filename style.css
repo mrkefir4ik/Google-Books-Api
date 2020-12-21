@@ -85,11 +85,17 @@ a:hover{
   .app{
     max-width: 80%;
   }
+  .search::placeholder{
+    font-size:12px
+  }
 }
 
 @media (min-width: 960px) {
   h1 { font-size: 3rem; }
   .result{font-size: 1.5rem;
     width: 70%;}
+    .search::placeholder{
+      font-size:small;
+    }
 }
 
