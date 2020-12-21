@@ -36,7 +36,8 @@ h1{
 
 .search{
   width: 13rem;
-  height: 2rem;
+  height: 1.5rem;
+  border-radius: 10%;
 }
 .search::placeholder{
   font-family: Ringbearer;
@@ -45,4 +46,5 @@ h1{
 button{
   height: 2rem;
   font-family: Ringbearer;
+  border-radius: 50%;
 }
