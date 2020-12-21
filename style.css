@@ -22,8 +22,13 @@ body{
   background-image: url(images/172373.jpg);
 }
 
-.results{
-  background-color: red;
+.result{
+  width: 80%;
+  color:white;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  border:2px solid black;
+  margin-top: 1rem;
 }
 h1{
   text-align: center;
@@ -35,16 +40,35 @@ h1{
 }
 
 .search{
-  width: 13rem;
-  height: 1.5rem;
+  width: 14.8rem;
+  height: 1.7rem;
   border-radius: 10%;
+  background-color: wheat;
+  color: rgba(43, 10, 10, 0.8);
+  font-family: Ringbearer;
+  font-size: large;
 }
 .search::placeholder{
   font-family: Ringbearer;
+  font-size: small;
 }
 
 button{
   height: 2rem;
   font-family: Ringbearer;
   border-radius: 50%;
+  cursor: pointer;
+  background-color: wheat;
+  font-weight: 800;
+}
+
+button:hover{
+  background-color: orange;
+}
+
+a{
+  color:orange;
+}
+a:hover{
+  color:red;
 }
