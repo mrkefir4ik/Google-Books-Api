@@ -3,6 +3,7 @@
   src:url(fonts/RINGM___.TTF);
 }
 
+
 body{
   margin-left: 0;
 }
@@ -17,6 +18,7 @@ body{
   color: wheat;
   background-color: rgba(43, 29, 29, 0.5);
   align-items: center;
+  flex: 1 0 auto;
 }
 body{
   background-color: lightyellow;
@@ -98,4 +100,3 @@ a:hover{
       font-size:small;
     }
 }
-
