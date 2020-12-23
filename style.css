@@ -26,6 +26,17 @@ body{
   background-image: url(images/172373.jpg);
 }
 
+p{
+  text-align: center;
+  color:wheat;
+  text-decoration: 2px darkred underline;
+  cursor: pointer;
+}
+
+p:hover{
+  color:orange;
+}
+
 .result{
   width: 70%;
   color:white;

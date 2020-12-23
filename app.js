@@ -1,3 +1,5 @@
+const randomQuote = require('random-lotr-movie-quote');
+const quote =  document.querySelector('.quote');
 const search = document.querySelector('.search');
 const button = document.querySelector('.button');
 const app = document.querySelector('.app');
@@ -48,3 +50,14 @@ function searcher () {
 }
 
 button.onclick = searcher;
+
+
+//random quote
+quote.onclick = function(){
+  let results = document.querySelectorAll('.result');
+  results.forEach(e =>{
+   e.parentNode.removeChild(e);
+  })
+ let quote = document.createElement('blockquote');
+ console.log(randomQuote())
+}
