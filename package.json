@@ -1,0 +1,33 @@
+{
+  "name": "lotr-api",
+  "version": "1.0.0",
+  "description": "web-interface to The One API",
+  "main": "app.js",
+  "dependencies": {
+    "random-lotr-movie-quote": "^1.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkefir4ik/LOTR-API.git"
+  },
+  "keywords": [
+    "lotr",
+    "ring",
+    "frodo",
+    "gandalf",
+    "database"
+  ],
+  "author": "mrkefir4ik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkefir4ik/LOTR-API/issues"
+  },
+  "homepage": "https://github.com/mrkefir4ik/LOTR-API#readme"
+}
