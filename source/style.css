@@ -24,12 +24,13 @@ body{
   background-color: lightyellow;
   font-family: Ringbearer;
   background-image: url(images/172373.jpg);
+  
 }
 
 .give_quote{
   text-align: center;
   color:wheat;
-  text-decoration: 2px darkred underline;
+  text-decoration: 2px wheat underline;
   cursor: pointer;
 }
 
@@ -114,6 +115,7 @@ a:hover{
 
 h3{
   text-align: right;
+  padding-right: 1rem;
 }
 
 blockquote{
