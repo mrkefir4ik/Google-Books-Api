@@ -32,6 +32,12 @@ function searcher () {
   
   $.ajax(settings).done(function (response) {
     console.log(response);
+    if (response.docs.length == 0){
+      let div = document.createElement('div');
+      div.className = "result";
+      div.innerHTML = `<h2>No results</h2>`;
+      app.append(div);
+    }
     response.docs.forEach(e =>{
       let div = document.createElement('div');
       div.className = "result";
